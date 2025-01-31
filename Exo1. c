@@ -13,7 +13,7 @@ Node* initializeList() {
     return head;
 }
 
-//  insert node at the head 
+//  insert node at the head :
 Node* insert_Head(Node** head, int value) {
     Node* newNode = createNode(value);
     if (*head == NULL) {
