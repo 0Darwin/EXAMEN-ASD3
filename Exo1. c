@@ -25,7 +25,7 @@ Node* insert_Head(Node** head, int value) {
     return *head;
 }
 
-// insert node in the middle of the list
+// insert node in the middle of the list:
  void insert_middle(node* head, int x, int position) {
     if (head == NULL) {
         printf("The list is empty.\n");
